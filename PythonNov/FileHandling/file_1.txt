@@ -1,0 +1,15 @@
+File Handling
+- text
+- binary - images, audio, video...
+
+Read
+Write / Append
+
+Modes
+read    - r / r+ / rb
+write   - w / w+ / wb / x
+append  - a / ab
+
+
+
+
