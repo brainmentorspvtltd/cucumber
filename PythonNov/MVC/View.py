@@ -3,13 +3,16 @@ import Controller
 
 def register():
     name = input("Enter Emp Name : ")
+    pwd = input("Enter Emp Password : ")
     dept = input("Enter Emp Dept : ")
     salary = int(input("Enter Emp Salary : "))
-    Controller.register(name, dept, salary)
+    Controller.register(name, pwd, dept, salary)
 
 def login():
     name = input("Enter Emp Name : ")
-
+    pwd = input("Enter Emp Password : ")
+    msg = Controller.login(name, pwd)
+    print(msg)
 
 def main():
     while True:
