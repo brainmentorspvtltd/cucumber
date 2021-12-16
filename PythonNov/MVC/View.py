@@ -8,7 +8,8 @@ def register():
     Controller.register(name, dept, salary)
 
 def login():
-    pass
+    name = input("Enter Emp Name : ")
+
 
 def main():
     while True:
